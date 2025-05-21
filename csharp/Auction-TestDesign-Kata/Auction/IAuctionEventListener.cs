@@ -2,5 +2,6 @@ namespace Auction;
 
 public interface IAuctionEventListener
 {
-    // TODO: add methods here
+    void AuctionClosed();
+    void PriceChanged();
 }
